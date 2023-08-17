@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 375px;
+  margin: auto;
+  padding: 60px 23px 66px;
+  background: #ECE9FD;
+  font-family: 'Epilogue', sans-serif;
+  color: #090039;
+  border: 1px solid #9385e2;
+}
+main .start{
+  text-transform: uppercase;
+  font-size: 16px; 
+  color: #7158EF;
+  line-height: 32px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  margin-bottom: 17px;
+}
+main h1{
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+main p{
+  line-height: 32px;
+  color: rgba(10, 0, 57, 0.64);
+  margin-bottom: 32px;
+}
+main a{
+  line-height: 32px;
+  text-decoration: none;
+  color: rgba(9, 0, 57, 1);
+}
+ul{
+  margin-top: 72px;
+}
+main ul li{
+  list-style: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+main ul span{
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: -2px;
+}
+.one{
+  margin-right: 38px;
+}
+.two{
+  margin: 32px 25px 32px 0;
+}
+.three{
+  margin-right: 26px;
+}
+@media screen and ( min-width: 830px) {
+  body{
+    max-width: none;
+    padding: 80px 284px 108px 135px;
+  }
+  main{
+   display: flex;
+   justify-content: space-around;
+  }
+  main div{
+    max-width: 484px;
+  }
+}
